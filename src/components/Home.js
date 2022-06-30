@@ -24,7 +24,7 @@ const Home = () => {
     })
   }
 
-  //when user submit it dispatch the value with all data in input
+  //when user submit it dispatch the value with all data in form
   const handleSubmit = (e) => {
     e.preventDefault()
     const values = Object.values(user)
